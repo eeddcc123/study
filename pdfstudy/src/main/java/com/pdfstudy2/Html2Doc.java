@@ -83,7 +83,9 @@ public class Html2Doc {
 		} finally {
 			if(br!=null) br.close();
 		}
+		System.out.println(22222);
 		return buffer.toString();
+		//213213
 	}
 
 	public String readFile2(String fileUrl) throws Exception {
